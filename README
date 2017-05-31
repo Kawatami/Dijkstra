@@ -1,0 +1,15 @@
+The purpose of this project is to implement dijkstra algorithm in C++. You can give your own map.
+Map are represented with single characters such as :
+  + F (floor)    : cost 5
+  + M (Mud)      : cost 8
+  + C (Concrete) : cost 2
+  + W (Wall)     : can't be crossed
+  + S (Start)    : cost 0
+  + E (End)      : cost 1
+
+
+Maps can be any shape while it is surounded by walls.
+
+to compile type : make.
+
+Fiew tests are provided in tests/ directory
